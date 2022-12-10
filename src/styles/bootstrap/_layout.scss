@@ -1,0 +1,25 @@
+.header{
+    background-color: $white;
+}
+
+.cart-number {
+    width: 42px;
+    height: 24px;
+    color: $white;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 4px;
+    margin-top: -8px;
+    background-image: url("../../assets/icon/cart-number.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header-input {
+    height: 48px;
+    width: 480px;
+    border: 1px solid $gray;
+    border-radius: 16px;
+    padding-left: 32px;
+    font-size: 14px;
+}

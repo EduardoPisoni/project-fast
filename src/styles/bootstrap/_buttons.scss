@@ -1,15 +1,22 @@
-.btn-primary-square {
+.btn-primary-rounded,
+.btn-primary-square  {
     height: 48px;
     background: $dark-orange;
-    border-radius: 16px;
+    border-radius: 50px;
     padding: 12px 24px;
     color: $white;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     cursor: pointer;
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
         background-color: $light-orange;
         color: white;
     }
+}
+
+.btn-primary-square {
+    border-radius: 16px;
 }

@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home.component';
 import { LayoutComponent } from './components/layout.component';
 import { CartComponent } from './pages/cart/cart.component';
 import { NewsletterComponent } from './components/newsletter/newsletter.component';
+import { ProductCardComponent } from './components/product-card/product-card.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NewsletterComponent } from './components/newsletter/newsletter.componen
     HomeComponent,
     LayoutComponent,
     CartComponent,
-    NewsletterComponent
+    NewsletterComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,

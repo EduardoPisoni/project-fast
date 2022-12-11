@@ -3,7 +3,11 @@
     <div class="row py-3 d-flex justify-content-between align-items-center">
       <img alt="Fast" src="../../assets/logo/logo-fast.png" />
       <div class="d-flex align-items-center">
-        <input class="header-input" type="text" placeholder="O QUE VOCÊ PROCURA?" />
+        <input
+          class="header-input"
+          type="text"
+          placeholder="O QUE VOCÊ PROCURA?"
+        />
         <a class="btn btn-primary-square ml-2 mr-4">
           <img alt="search" src="../../assets/icon/search.svg" />
         </a>
@@ -11,9 +15,7 @@
           <a>
             <img alt="cart" src="../../assets/icon/cart.svg" />
           </a>
-          <div
-            class="cart-number d-flex justify-content-center align-items-center"
-          >
+          <div class="cart-number d-flex justify-content-center align-items-center">
             1
           </div>
         </div>
@@ -21,5 +23,103 @@
     </div>
   </div>
 </header>
+<nav class="header-nav py-3">
+  <div class="container">
+    <div class="navbar-nav row d-flex justify-content-between align-items-center flex-row">
+      <li class="nav-item">
+        <a class="nav-link" href="">TODAS AS CATEGORIAS</a>
+      </li>
+      <div class="nav-item-separator"></div>
+      <li class="nav-item">
+        <a class="nav-link" href="">ÁUDIO</a>
+      </li>
+      <div class="nav-item-separator"></div>
+      <li class="nav-item">
+        <a class="nav-link" href="">INSTRUMENTOS</a>
+      </li>
+      <div class="nav-item-separator"></div>
+      <li class="nav-item">
+        <a class="nav-link" href="">COMPUTADORES</a>
+      </li>
+      <div class="nav-item-separator"></div>
+      <li class="nav-item">
+        <a class="nav-link" href="">SMARTPHONES</a>
+      </li>
+    </div>
+  </div>
+</nav>
+
 <router-outlet></router-outlet>
-<footer>Footer</footer>
+
+<footer class="footer py-5">
+  <div class="container">
+    <div class="payment row d-flex flex-column align-items-center pb-5">
+      <div class="title mb-4">
+        FORMAS DE PAGAMENTO
+      </div>
+      <div class="images d-flex justify-content-center">
+        <img alt="boleto" src="assets/payment/boleto-logo.png">
+        <img alt="visa" src="assets/payment/visa-logo.png">
+        <img alt="mastercard" src="assets/payment/mastercard-logo.png">
+        <img alt="elo" src="assets/payment/elo-logo.png">
+        <img alt="diners club" src="assets/payment/diners-club-logo.png">
+        <img alt="american express" src="assets/payment/american-express-logo.png">
+        <img alt="hipercard" src="assets/payment/hipercard-logo.png">
+        <img alt="jcb" src="assets/payment/jcb-logo.png">
+      </div>
+    </div>
+
+    <div class="row links d-flex justify-content-between">
+
+      <div class="column d-flex flex-column">
+        <div class="title">
+          CENTRAL DE ATENDIMENTO
+        </div>
+        <ul class="content">
+          <li>
+            <img alt="Phone" src="assets/icon/phone.svg">
+            (51) 3588-9968
+          </li>
+          <li>
+            <img alt="e-mail" src="assets/icon/mail.svg">
+          lojavirtual@f1commerce.com
+          </li>
+        </ul>
+      </div>
+
+      <div class="column d-flex flex-column">
+        <div class="title">
+          SERVIÇOS
+        </div>
+        <ul class="content">
+          <li>
+            TROCAS E DEVOLUÇÕES
+          </li>
+          <li>
+            POLITICA DE ENTREGA
+          </li>
+        </ul>
+      </div>
+      
+      <div class="column d-flex flex-column">
+        <div class="title">
+          INSTITUCIONAL
+        </div>
+        <ul class="content">
+          <li>
+            QUEM SOMOS
+          </li>
+          <li>
+            TRABALHE CONOSCO
+          </li>
+          <li>
+            POLITICA DE PRIVACIDADE
+          </li>
+          <li>
+            GARANTIA DE FÁBRICA
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

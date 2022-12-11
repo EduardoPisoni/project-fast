@@ -1,11 +1,15 @@
 .btn-primary-square {
     height: 48px;
-    background: $orange;
+    background: $dark-orange;
     border-radius: 16px;
     padding: 12px 24px;
     color: $white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
     cursor: pointer;
     &:hover {
-        opacity: .8;
+        background-color: $light-orange;
+        color: white;
     }
 }

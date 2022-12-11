@@ -7,13 +7,15 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './pages/home.component';
 import { LayoutComponent } from './components/layout.component';
 import { CartComponent } from './pages/cart/cart.component';
+import { NewsletterComponent } from './components/newsletter/newsletter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     LayoutComponent,
-    CartComponent
+    CartComponent,
+    NewsletterComponent
   ],
   imports: [
     BrowserModule,
